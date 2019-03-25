@@ -1,0 +1,13 @@
+---
+
+- hosts:
+    - all
+  gather_facts: False
+  tasks:
+  - name: Create user
+    user: name={{username}} groups=sudo
+    sudo: yes
+  - name: Set password to user
+    shell: echo {{username}}:{{password}} | sudo chpasswd
+    sudo: yes
+    no_log: True
