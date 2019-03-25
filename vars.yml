@@ -1,0 +1,7 @@
+var1: "lovely_dir"
+var2: "angry_dir"
+var3: "optimist_dir"
+dir_vars:
+  - { k0: val01, k1: val10 }
+  - { k0: val02, k1: val11 }
+  - { k0: val03, k1: val12 }

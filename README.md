@@ -13,15 +13,15 @@ Project's playbooks
 
 * **apache2.yml**: This playbook installs apache2.
 
+* **template.yml**: This playbook uses variables to create dirs and create template file.
+
 Some piece of wisdom
 --------------------
 
 If you don't khow what is ansible, there is the best way to describe it:
 
-    Ansible is the simplest way to automate apps and IT infrastructure.
+    Ansible candır.
 
-    -- DevOps engineers
-    
-Enjoy this project!   
+    -- A Turkish Developer's saying.
 
-
+Enjoy this project!
