@@ -11,6 +11,8 @@ Project's playbooks
 
 * **prepare_nodes.yml**: This playbook prepares nodes for work.
 
+* **apache2.yml**: This playbook installs apache2.
+
 Some piece of wisdom
 --------------------
 
